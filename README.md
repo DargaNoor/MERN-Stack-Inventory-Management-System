@@ -7,7 +7,6 @@ This project is a comprehensive inventory management system developed using the 
 **Backend:** Powered by Node.js and Express.js, managing API endpoints for all CRUD operations. The server interacts with MongoDB Atlas via Mongoose, a popular ORM for MongoDB, to handle data persistence and schema validation.
 **Database:** MongoDB Atlas stores product data with a schema managed by Mongoose. Data is structured efficiently to support fast queries and facilitate scalability.
 Modules and Dependencies
-
 <br><br>
 **Backend**<br>
 **NVM:** Node Version Manager, required for managing multiple Node.js versions.
@@ -23,7 +22,7 @@ Modules and Dependencies
 
 
 <br><br>
-To Start Backend-End: run below command.
+To Start Backend-End: run following command-
 	nodemon server.js
 
 <br><br>
@@ -35,8 +34,7 @@ To Start Backend-End: run below command.
 **Babel Plugins:** Configures ECMAScript features, enabling compatibility and modern syntax.
 
 <br><br>
-To Start Front-End run below command.
-	npm start
+To Start Front-End run following command- npm start
 
 
 **Workflow and Features**<br>
@@ -49,7 +47,6 @@ To Start Front-End run below command.
 <br><br>
 **Cloud-Based Database**<br>
 MongoDB Atlas is chosen for its scalable, cloud-based storage solution, reducing client and server-side workload. This choice allows efficient data storage and retrieval, ensuring a reliable and responsive user experience.
-
 
 <br><br>
 **Technical Overview**<br>
@@ -79,7 +76,6 @@ MongoDB Atlas is chosen for its scalable, cloud-based storage solution, reducing
 **Updating the Product:**<br>
 ![Updae_confirmation](https://github.com/user-attachments/assets/df0c2459-0031-437b-bfba-11d1b62147cb)<br>
 ![Update_product](https://github.com/user-attachments/assets/d74e4a97-e871-4127-b385-060a7ce42218)
-
 <br><br>
 This MERN stack-based inventory management system combines React and Node.js to deliver a responsive, cloud-backed solution for efficient inventory control. MongoDB Atlas ensures scalability, and robust user session management enables secure data handling and access control.
 
