@@ -1,0 +1,86 @@
+.inventory-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 150px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .form-container {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form select,
+  form textarea,
+  .date-time input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .date-time {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .date-time input[type="date"],
+  .date-time input[type="time"] {
+    width: 48%;
+  }
+  
+  textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .upload-section {
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .upload-section input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
